@@ -1,0 +1,62 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+/* GENERAL CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* SPECIFY CSS */
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+    .principal {
+        width: fit-content;
+        height: fit-content;
+    }
+        .QrCard {
+            width: 300px;
+            height: fit-content;
+            background-color: hsl(0, 0%, 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 30px 30px;
+            border-radius: 15px;
+            margin-top: 20%;
+            margin-bottom: 10%;
+        }
+            .ImgCont {
+                width: 260px;
+                height: 260px;
+            }
+                .ImgCont img {
+                    width: 260px;
+                    object-fit: contain;
+                    border-radius: 12px;
+                }
+            .CardText {
+                margin-top: 32px;
+            }
+                .CardText h1 {
+                    font-size: 20px;
+                    color: hsl(218, 44%, 22%);
+                }
+                .CardText p {
+                    font-size: 15px;
+                    margin-top: 15px;
+                    color: hsl(218, 44%, 22%);
+                }
